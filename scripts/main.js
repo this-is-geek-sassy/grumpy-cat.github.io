@@ -28,7 +28,7 @@ function setUserName() {
         setUserName();
     }
     else {
-        sessionStorage.setItem('name', myName);
+        localStorage.setItem('name', myName);
         myHeading.innerHTML = 'Hello ' + "<strong>" + myName + ",</strong>" + ' have fun!';
     }
 }
