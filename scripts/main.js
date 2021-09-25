@@ -12,7 +12,7 @@ let myImg = document.querySelector('img');
 myImg.onclick = function() {
     let mySrc = myImg.getAttribute('src');
     if(window.confirm("You wanna see another logo?\nPress \'Ok\' to confirm")) {
-        myImg.setAttribute("src", "./images/chrome_logo.png");
+        myImg.setAttribute("src", "images/chrome_logo.png");
     }
     else {
         alert("Okay! Not a problem!!");
