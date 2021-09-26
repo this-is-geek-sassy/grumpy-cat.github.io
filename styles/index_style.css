@@ -55,14 +55,24 @@ article {
     /* background-color: grey; */
 }
 
-.cat {
+div.cat {
     justify-content: space-evenly;
-    
+    border: solid 0px rgb(139, 138, 138);
     margin: 0 auto;
     width: 45rem;
     padding: 3%;
     color: slateblue;
     background-color: rgba(44, 139, 100, 0.11);
+    animation-name: animation_for_border_of_div_cat;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+/* trying to create custom animation */
+@keyframes animation_for_border_of_div_cat {
+    from{border: solid 0px rgb(139, 138, 138);}
+    to{border: solid 2px rgb(139, 138, 138);}
 }
 h4, p {
     text-align: center;
