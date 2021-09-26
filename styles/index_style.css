@@ -6,11 +6,11 @@ body {
     border: 2px solid rgba(59, 43, 8, 0.425);
 }
 h1 {
-    /* text-decoration: underline; */
+    text-decoration: underline;
     /* border-top: 4px solid currentColor; */
-    margin-right: 830px;
+    /* margin-right: 830px;
     margin-left: auto;
-    border-bottom: 0.07em solid currentColor;
+    border-bottom: 0.07em solid currentColor; */
 }
 #browser_logo {
     margin: 0 auto;
