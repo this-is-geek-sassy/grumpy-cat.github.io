@@ -42,9 +42,11 @@ aside {
     background-color: lightblue;
     transition-property: background-color;
     transition-duration: 4s;
+    transition-timing-function: ease-in-out;
 }
 aside:hover {
     background-color: lightcyan;
+    width: 45%;
 }
 article {
     color: rgb(12, 82, 82);
