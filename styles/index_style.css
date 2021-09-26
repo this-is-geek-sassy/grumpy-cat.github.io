@@ -31,7 +31,20 @@ h1.heading_to_be_modified {
     display: block;
     margin: 0 auto;
 } */
-
+aside {
+    width: 40%;
+    padding-left: .8rem;
+    margin-left: .8rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+article {
+    color: rgb(12, 82, 82);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
 .cat {
     justify-content: space-evenly;
     
