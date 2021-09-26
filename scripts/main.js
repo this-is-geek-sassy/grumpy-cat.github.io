@@ -21,7 +21,7 @@ myImg.onclick = function() {
 }
 
 let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+let myHeading = document.querySelector('h1.heading_to_be_modified');
 
 function setUserName() {
     let myName = prompt('Please enter your name:');

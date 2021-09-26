@@ -1,11 +1,18 @@
 body {
+    margin: 0 auto;
+    max-width: 78em;
+}
+/* .navigation_form {
+    display: inline;
+} */
+main {
     width: 70rem;
     margin: 50px 50px;
     background-color: #fff;
     padding: 0 20px 20px 20px;
     border: 2px solid rgba(59, 43, 8, 0.425);
 }
-h1 {
+h1.heading_to_be_modified {
     text-decoration: underline;
     /* border-top: 4px solid currentColor; */
     /* margin-right: 830px;
@@ -29,7 +36,7 @@ h1 {
     justify-content: space-evenly;
     
     margin: 0 auto;
-    width: 15rem;
+    width: 45rem;
     padding: 3%;
     color: slateblue;
     background-color: rgba(44, 139, 100, 0.11);
