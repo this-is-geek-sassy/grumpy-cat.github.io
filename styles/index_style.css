@@ -39,12 +39,20 @@ aside {
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: #29627e;
+    background-color: lightblue;
+    transition-property: background-color;
+    transition-duration: 4s;
+}
+aside:hover {
+    background-color: lightcyan;
 }
 article {
     color: rgb(12, 82, 82);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
+    /* background-color: grey; */
 }
+
 .cat {
     justify-content: space-evenly;
     
