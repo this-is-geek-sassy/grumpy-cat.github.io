@@ -7,10 +7,11 @@ body {
 } */
 main {
     width: 70rem;
-    margin: 50px 50px;
+    margin: auto;
     background-color: #fff;
-    padding: 0 20px 20px 20px;
+    padding: 20px 20px;
     border: 2px solid rgba(59, 43, 8, 0.425);
+    justify-content: center;
 }
 h1.heading_to_be_modified {
     text-decoration: underline;
