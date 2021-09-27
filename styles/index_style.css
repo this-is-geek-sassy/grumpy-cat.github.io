@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     max-width: 78em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* .navigation_form {
     display: inline;
@@ -13,7 +14,15 @@ main {
     border: 2px solid rgba(59, 43, 8, 0.425);
     justify-content: center;
 }
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-style: italic; */
+    font-size: 20px;
+    font-variant: small-caps;
+}
 h1.heading_to_be_modified {
+    position: relative;
+    left: 20px;
     text-decoration: underline;
     /* border-top: 4px solid currentColor; */
     /* margin-right: 830px;
