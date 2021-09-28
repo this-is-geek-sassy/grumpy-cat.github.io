@@ -31,6 +31,7 @@ function setUserName() {
     else {
         localStorage.setItem('name', myName);
         myHeading.innerHTML = 'Hello ' + "<strong>" + myName + ",</strong>" + ' have fun!';
+        location.reload();
     }
 }
 
